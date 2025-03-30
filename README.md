@@ -1,54 +1,51 @@
-## 📊 E-commerce Dataset Analysis – Part 3: Dashboarding & Business Storytelling
+## 🤖 E-commerce Dataset Analysis – Part 3: Predicting Customer Preferences (Classification Modeling)
 
-This is the final phase of my e-commerce analytics project, where I translate analysis into compelling **data visualizations** using interactive dashboards. This part is designed to simulate real-world business reporting and executive summaries.
+This final part of the project demonstrates my ability to build and evaluate **machine learning models** to predict user preferences in an e-commerce setting. The task involves binary classification: predicting whether a user will **like (1)** or **dislike (0)** an item, based on transaction and product features.
 
 ---
 
-### 🎯 Project Purpose
+### 🎯 Project Objective
 
-This part focuses on delivering:
-- Clear, concise **data visualizations**
-- High-level business insights for stakeholders
-- A dashboard-ready dataset and storytelling narrative
+The primary goal is to use customer and product data to predict **binary ratings** (like/dislike) using classification models. The approach includes:
 
-It represents the kind of deliverable a business analyst might prepare for C-level executives or cross-functional teams.
+- Exploratory data analysis and cleaning
+- Feature encoding and transformation
+- Model training and evaluation
+- Hyperparameter tuning and performance comparison
 
 ---
 
 ### 📘 Notebook Summary
 
 - **Notebook:** `E-commerce_Dataset_Analysis_Part3.ipynb`
-- **Focus:** Insight visualization and dashboard preparation
-- **Sections Covered:**
-  - KPI overview (Sales, Profit, Orders)
-  - Time-series trend charts
-  - Product/category performance dashboards
-  - Customer segmentation visuals
-  - Geography-based analysis
-
----
-
-### 🛠️ Tools & Technologies
-
-- **Python** (Matplotlib, Seaborn, Plotly)
-- **Jupyter Notebook**
-
----
-
-### 💡 Key Deliverables
-
-- A polished set of visuals ready for stakeholder use
-- A narrative flow connecting findings to business action
-- Strategic recommendations based on the analysis
+- **Target Variable:** `rating` (1 = like, 0 = dislike)
+- **Models Used:**
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+- **Steps Taken:**
+  1. Data inspection and cleaning
+  2. Feature encoding for categorical variables
+  3. Correlation analysis
+  4. Model training and accuracy evaluation
+  5. Hyperparameter tuning for KNN
 
 ---
 
 ### 🧠 Skills Highlighted
 
-- 🎨 **Data Visualization** and design for clarity
-- 🗣️ **Business Storytelling** with data
-- 📋 **Dashboard planning** and KPI communication
-- 🧩 **Cross-functional thinking** bridging data & business
+- 🛠 **Supervised Machine Learning** (Classification)
+- 📊 **Feature Engineering** & encoding
+- 📈 **Model Evaluation** using accuracy metrics
+- 🔍 **Hyperparameter Tuning** for model optimization
+- 💬 **Critical comparison** of algorithm performance
+
+---
+
+### 🧰 Tools & Technologies
+
+- Python (Pandas, NumPy, Scikit-learn)
+- Jupyter Notebook
+- Seaborn & Matplotlib for visualization
 
 ---
 
@@ -56,4 +53,4 @@ It represents the kind of deliverable a business analyst might prepare for C-lev
 
 - **Part 1:** Data Cleaning & Preparation  
 - **Part 2:** Exploratory Data Analysis  
-- **Part 3:** Dashboarding & Visualization  
+- **Part 3:** Classification Modeling to Predict User Ratings  
